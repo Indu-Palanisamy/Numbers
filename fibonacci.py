@@ -9,9 +9,9 @@ elif(n==1):
   print(a)
 else:
   while(count<n):
+    lst.append(a)
     c = a+b
     a=b
     b=c
     count += 1
-    lst.append(c)
 print(lst)
